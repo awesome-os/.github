@@ -1,3 +1,4 @@
+![AwesomeOS](awesome-os-github-banner.jpg)
 # Awesome-OS & Sectium
 
 > **Sovereign BSD-3 Chromium-derived engine, `.b8p` content-addressed runtime, persistent multi-UI agent host, and local LLM/LoRA stack — engineered natively with zero closed vendor DLLs and zero WSL cross-compilation.**
