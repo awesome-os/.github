@@ -1,0 +1,38 @@
+name: RFC / Design Doc
+description: Propose an architectural change or cross-repo RFC for review
+title: "[RFC]: "
+labels: ["type/rfc", "status/design-review"]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem Statement
+      description: What problem does this RFC solve, and why is it needed now?
+    validations:
+      required: true
+  - type: textarea
+    id: non_goals
+    attributes:
+      label: Non-Goals
+      description: Explicitly list what is out of scope for this proposal.
+    validations:
+      required: true
+  - type: textarea
+    id: architecture_impact
+    attributes:
+      label: 4-Layer Architecture Impact
+      description: Describe impacts across Layer 1 (Sectium), Layer 2 (sectium-cloud-control-plane), Layer 3 (sectium-device), and Layer 4 (holo-compiler / b8g-runtime / sectium-es / sectium-jvm).
+      placeholder: |
+        - Layer 1 (Sectium): ...
+        - Layer 2 (sectium-cloud-control-plane): ...
+        - Layer 3 (sectium-device): ...
+        - Layer 4 (holo-compiler / Runtimes): ...
+    validations:
+      required: true
+  - type: textarea
+    id: verification_gate
+    attributes:
+      label: Verification Gate
+      description: How will holo-ci verify, Holo-E2E, and runtime/CAS tests prove correctness without virtual-as-real claims?
+    validations:
+      required: true

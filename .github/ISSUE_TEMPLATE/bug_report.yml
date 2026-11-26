@@ -1,0 +1,66 @@
+name: Bug Report
+description: Report a bug or regression in any Awesome-OS repository
+title: "[Bug]: "
+labels: ["type/bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for reporting an issue. For security vulnerabilities, please do **not** open a public issue — use [GitHub Private Security Advisories](https://github.com/awesome-os/awesome-os/security/advisories/new).
+  - type: dropdown
+    id: repository
+    attributes:
+      label: Repository
+      description: Select the affected active Awesome-OS engineering repository.
+      options:
+        - awesome-os
+        - chromium-baseline
+        - t2linux-baseline
+        - agent-platform
+        - devtools
+        - wordpress-ecosystem
+        - holo-v11
+        - maintenance-workflows
+        - upstream-mirrors
+        - dockerimages
+        - installer
+        - deployment
+    validations:
+      required: true
+  - type: dropdown
+    id: os_arch
+    attributes:
+      label: OS / Architecture
+      description: Select the target operating system and CPU architecture.
+      options:
+        - windows-x86_64
+        - linux-x86_64
+        - linux-aarch64
+        - macos-arm64
+        - macos-x86_64
+        - wasm32-wasi
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Reproduction Steps
+      description: Provide minimal, deterministic steps to reproduce the issue (including exact bin/ shim or holo-ci commands).
+      placeholder: |
+        1. Run ...
+        2. Observe ...
+    validations:
+      required: true
+  - type: textarea
+    id: expected_actual
+    attributes:
+      label: Expected vs. Actual Behavior
+      description: Describe what you expected to happen and what actually happened.
+    validations:
+      required: true
+  - type: textarea
+    id: logs
+    attributes:
+      label: Logs & Diagnostics
+      description: Paste relevant CLI output, holo-ci receipts, stack traces, or CAS digests.
+      render: text

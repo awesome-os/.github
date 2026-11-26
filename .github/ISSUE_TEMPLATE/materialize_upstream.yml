@@ -1,0 +1,50 @@
+name: Materialize Upstream Library
+description: Track real compilation and Holo v11 CAS materialization of an upstream library
+title: "[Materialize]: "
+labels: ["type/materialization", "area/cas-v11"]
+body:
+  - type: input
+    id: library_name
+    attributes:
+      label: Upstream Library Name
+      description: Canonical upstream package or library identifier.
+      placeholder: e.g. openssl, zlib, sqlite, libuv
+    validations:
+      required: true
+  - type: input
+    id: target_version
+    attributes:
+      label: Target Max Version
+      description: Exact upstream version pin targeted in holo-v11 / t2linux-baseline.
+      placeholder: e.g. 3.5.0
+    validations:
+      required: true
+  - type: checkboxes
+    id: five_os_targets
+    attributes:
+      label: 5-OS (+ WASI) Targets
+      description: Select the native compilation targets covered by this materialization.
+      options:
+        - label: linux-x86_64
+        - label: linux-aarch64
+        - label: windows-x86_64
+        - label: macos-arm64
+        - label: macos-x86_64
+        - label: wasm32-wasi
+    validations:
+      required: true
+  - type: textarea
+    id: zig_build_notes
+    attributes:
+      label: Zig / holo-compiler Build Notes
+      description: Document zig cc / holo-compiler flags, source patches, static/shared library outputs, and ABI constraints.
+    validations:
+      required: true
+  - type: textarea
+    id: cas_proof
+    attributes:
+      label: SHA-512 CAS Proof
+      description: Provide the v11/files/00..ff/<sha512> digest(s), release tag (e.g. v11-max-5os-latest), and holo-ci / CAS Q-Self receipt.
+      render: text
+    validations:
+      required: true

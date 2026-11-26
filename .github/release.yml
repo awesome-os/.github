@@ -1,0 +1,28 @@
+changelog:
+  exclude:
+    labels:
+      - duplicate
+      - invalid
+      - wontfix
+  categories:
+    - title: Security
+      labels:
+        - type/security
+    - title: Materializations & CAS v11
+      labels:
+        - type/materialization
+    - title: RFCs & Architecture
+      labels:
+        - type/rfc
+    - title: Bug Fixes
+      labels:
+        - type/bug
+    - title: Auto-Rolls & Pin Updates
+      labels:
+        - type/autoroll
+    - title: Infrastructure & CI
+      labels:
+        - type/infra
+    - title: Other Changes
+      labels:
+        - "*"
