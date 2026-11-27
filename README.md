@@ -29,7 +29,7 @@ See [`profile/README.md`](profile/README.md) for the GitHub organization overvie
 | [**`awesome-os/maintenance-workflows`**](https://github.com/awesome-os/maintenance-workflows) | Centralized zero-dependency Node 24/26 **`holo-ci@v1`** (`reusable-holo-ci.yml@v1`, `reusable-holo-e2e.yml@v1`), 7-ecosystem `holo-ci lock-compat` (`npm`, `cargo`, `uv`, `go`, `vcpkg`, `winget`, `apt`), 5-OS Zig C11 release workflows, VSIX / Open VSX releases, and `holo-ci.receipt.v1` telemetry |
 | [**`awesome-os/upstream-mirrors`**](https://github.com/awesome-os/upstream-mirrors) | Cross-compiled 5-OS + WASI shared native library artifacts ([`v11-max-5os-latest`](https://github.com/awesome-os/upstream-mirrors/releases/tag/v11-max-5os-latest)) feeding Planetary Warm CAS |
 | [**`awesome-os/dockerimages`**](https://github.com/awesome-os/dockerimages) | Zero-Alpine `FROM scratch` `t2linux` & Node 27 `holo-node` multi-arch OCI container suite (`8` images in [`v11-oci-latest`](https://github.com/awesome-os/dockerimages/releases/tag/v11-oci-latest)) |
-| [**`awesome-os/installer`**](https://github.com/awesome-os/installer) | Sovereign Web OOBE & CLI installer (`irm https://awesome-os.github.io/installer/install.ps1 \| iex` / `curl -fsSL https://awesome-os.github.io/installer/install.sh \| sh`) with zero-checkout Clean-Box Stranger E2E verification |
+| [**`awesome-os/installer`**](https://github.com/awesome-os/installer) | Sovereign Web OOBE & CLI installer (`https://awesome-os.github.io/installer/` · `curl -fsSL https://raw.githubusercontent.com/awesome-os/installer/main/start-here.sh \| sh`) with zero-checkout Clean-Box Stranger E2E verification |
 | [**`awesome-os/deployment`**](https://github.com/awesome-os/deployment) | Infrastructure-as-code, DNS, edge routing, and sovereign fleet deployment manifests |
 
 ---
@@ -40,7 +40,7 @@ See [`profile/README.md`](profile/README.md) for the GitHub organization overvie
 | :--- | :--- |
 | [**`awesome-os/.github`**](https://github.com/awesome-os/.github) | Organization profile, community health files, and ecosystem architecture hub |
 | [**`awesome-os/awesome-os.github.io`**](https://github.com/awesome-os/awesome-os.github.io) | Public web presence (`https://awesome-os.github.io/`) & Oversight / Web OOBE static delivery |
-| [**`awesome-os/b8g.app`**](https://github.com/awesome-os/b8g.app) | B8G universal runtime application portal (`https://b8g.app`) |
+| [**`awesome-os/b8g.app`**](https://github.com/awesome-os/b8g.app) | B8G universal runtime application portal (`https://awesome-os.github.io/b8g-app/`) |
 | [**`awesome-os/lemanschik.com`**](https://github.com/awesome-os/lemanschik.com) | Sovereign engineering & architecture portal (`https://lemanschik.com`) |
 
 > **Archive Preservation Guarantee:** All `37` absorbed companion repositories remain preserved read-only (`129` total archived repositories) with 100% of their published GitHub Releases indexed in `awesome-os/holo-v11` via `CONSOLIDATED_ARCHIVE_ALLOWLIST`.

@@ -2,10 +2,10 @@
 
 > **A sovereign, ChromeOS-grade, content-addressed operating system, runtime, browser, DevTools, and AI ecosystem — built natively with `holo-compiler` (`< 1 s`, zero WSL), zero duplicated monoliths (`dup_v8 = 0 B`), and one unified SHA-512 + Ed25519 Holo `v11` CAS ([`awesome-os/holo-v11`](https://github.com/awesome-os/holo-v11)).**
 
-[![Install AwesomeOS OOBE](https://img.shields.io/badge/Install-Web_OOBE_Installer-39C5CF?style=for-the-badge)](https://awesome-os.com/install/)
-[![Live Oversight](https://img.shields.io/badge/Telemetry-Holo_v11_Oversight-D29922?style=for-the-badge)](https://b8g.dev/awesome-os/apps/oversight.html)
-[![Agent Platform Hub](https://img.shields.io/badge/Live-Agent_Platform_App-2EA043?style=for-the-badge)](https://b8g.dev/awesome-os/apps/agent-platform.html)
-[![LLM & LoRA Studio](https://img.shields.io/badge/Studio-LLM_%26_LoRA_5--Tab-A78BFA?style=for-the-badge)](https://b8g.dev/awesome-os/apps/llm-studio.html)
+[![Install AwesomeOS OOBE](https://img.shields.io/badge/Install-Web_OOBE_Installer-39C5CF?style=for-the-badge)](https://awesome-os.github.io/installer/)
+[![Live Oversight](https://img.shields.io/badge/Telemetry-Holo_v11_Oversight-D29922?style=for-the-badge)](https://awesome-os.github.io/holo-v11/oversight.html)
+[![Agent Platform Hub](https://img.shields.io/badge/Live-Agent_Platform_App-2EA043?style=for-the-badge)](https://awesome-os.github.io/agent-platform/)
+[![LLM & LoRA Studio](https://img.shields.io/badge/Studio-LLM_%26_LoRA_5--Tab-A78BFA?style=for-the-badge)](https://awesome-os.github.io/agent-platform/llm-studio.html)
 
 ---
 
@@ -42,8 +42,8 @@
 | Anchor | Role |
 | :--- | :--- |
 | [**`awesome-os/.github`**](https://github.com/awesome-os/.github) | Organization profile, community health files, and ecosystem architecture hub |
-| [**`awesome-os/awesome-os.github.io`**](https://github.com/awesome-os/awesome-os.github.io) | Public web presence (`https://awesome-os.com`) & Oversight / Web OOBE static delivery |
-| [**`awesome-os/b8g.app`**](https://github.com/awesome-os/b8g.app) | B8G universal runtime application portal (`https://b8g.app`) |
+| [**`awesome-os/awesome-os.github.io`**](https://github.com/awesome-os/awesome-os.github.io) | Public web presence (`https://awesome-os.github.io/`) & Oversight / Web OOBE static delivery |
+| [**`awesome-os/b8g.app`**](https://github.com/awesome-os/b8g.app) | B8G universal runtime application portal (`https://awesome-os.github.io/b8g-app/`) |
 | [**`awesome-os/lemanschik.com`**](https://github.com/awesome-os/lemanschik.com) | Sovereign engineering & architecture portal (`https://lemanschik.com`) |
 
 > **Archive Preservation Guarantee:** All `37` absorbed companion repositories remain preserved read-only (`129` total archived repositories) with 100% of their published GitHub Releases indexed in `awesome-os/holo-v11` via `CONSOLIDATED_ARCHIVE_ALLOWLIST`.
@@ -52,7 +52,7 @@
 
 ## Live Production Apps & Installers
 
-- **Web OOBE Installer & Clean-Box Stranger E2E (`https://awesome-os.com/install/`):** [https://awesome-os.com/install/](https://awesome-os.com/install/) (zero-checkout live-binary Clean-Box Stranger E2E verified in [`awesome-os/installer`](https://github.com/awesome-os/installer))
-- **Live Holo `v11` Oversight Telemetry (`68/68` tracked upstream libs, `0` drifted):** [https://b8g.dev/awesome-os/apps/oversight.html](https://b8g.dev/awesome-os/apps/oversight.html)
-- **Unified Agent Platform Control Center:** [https://b8g.dev/awesome-os/apps/agent-platform.html](https://b8g.dev/awesome-os/apps/agent-platform.html)
-- **Sovereign LLM & LoRA Studio:** [https://b8g.dev/awesome-os/apps/llm-studio.html](https://b8g.dev/awesome-os/apps/llm-studio.html)
+- **Web OOBE Installer & Clean-Box Stranger E2E (`https://awesome-os.github.io/installer/`):** [https://awesome-os.github.io/installer/](https://awesome-os.github.io/installer/) (zero-checkout live-binary Clean-Box Stranger E2E verified in [`awesome-os/installer`](https://github.com/awesome-os/installer))
+- **Live Holo `v11` Oversight Telemetry (`68/68` tracked upstream libs, `0` drifted):** [https://awesome-os.github.io/holo-v11/oversight.html](https://awesome-os.github.io/holo-v11/oversight.html)
+- **Unified Agent Platform Control Center:** [https://awesome-os.github.io/agent-platform/](https://awesome-os.github.io/agent-platform/)
+- **Sovereign LLM & LoRA Studio:** [https://awesome-os.github.io/agent-platform/llm-studio.html](https://awesome-os.github.io/agent-platform/llm-studio.html)
