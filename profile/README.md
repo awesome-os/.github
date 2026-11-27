@@ -14,7 +14,17 @@
 
 ---
 
-## Flat Org Architecture (`17` Active / `129` Archived)
+## Flat Org Architecture (`17` Active: `13` Engineering + `4` Web Anchors / `129` Archived)
+
+### Live Verified Fleet & Governance Metrics
+
+| Gate / Telemetry | Verified Status | Scope & Invariant |
+| :--- | :--- | :--- |
+| **Active & Archived Fleet** | `17` active (`13` engineering + `4` web anchors) · `129` archived | `146` total org repos; `CONSOLIDATED_ARCHIVE_ALLOWLIST` indexed in `holo-v11` |
+| **Project Geometry** | `100/100` (Grade `A`) | `0` core SCCs · `0` layer inversions · `0` HTTP-IPC violations |
+| **C11 ABI Golden Freeze** | `14/14` valid (`B8G_ABI_MAGIC_V3 = 0x33564742`) | `47` structs · `101` constants · `14/14` `abi-golden.test.mts` passing |
+| **Holo-CI & Boundary Audits** | `13/13` `holo-ci` · `13/13` `boundary.json` | `holo-ci@v1` + `reusable-holo-e2e.yml@v1` across all `13` engineering repos |
+| **Static Web Anchors** | `https://awesome-os.github.io/*` (`0` custom `CNAME` files) | Strict `github.io` origin (`non-github-io-cname` guard active) |
 
 ### 6 Canonical Monorepos
 
