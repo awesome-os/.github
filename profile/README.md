@@ -1,3 +1,5 @@
+<!-- DOC-STATIC-CORPUS -->
+
 # Awesome-OS & Sectium
 
 > **A sovereign, ChromeOS-grade, content-addressed operating system, runtime, browser, DevTools, and AI ecosystem — built natively with `holo-compiler` (`< 1 s`, zero WSL), zero duplicated monoliths (`dup_v8 = 0 B`), and one unified SHA-512 + Ed25519 Holo `v11` CAS ([`awesome-os/holo-v11`](https://github.com/awesome-os/holo-v11)).**

@@ -1,3 +1,5 @@
+<!-- DOC-STATIC-CORPUS -->
+
 # Awesome-OS Organization Hub (`awesome-os/.github`)
 
 > **Organization profile, ecosystem index, and Holo `v11` entry points for [`github.com/awesome-os`](https://github.com/awesome-os).**
